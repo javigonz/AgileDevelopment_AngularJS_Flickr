@@ -1,0 +1,23 @@
+<div class="customers">
+    <div class="container">
+        <header>
+            <h3>Photos</h3>
+        </header> 
+
+        <div >
+
+            <div class="row cardContainer">
+                <div class="span3 thumbnail" ng-repeat="photo in photos">
+                   
+                      <img src="{{photo.media.m}}" alt="image">
+                      <br />
+                      <p class="text-center text-info">{{photo.title}}</p>
+                    
+                </div>
+            </div>  
+           
+
+        </div>
+
+    </div>
+</div>

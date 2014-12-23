@@ -1,0 +1,7 @@
+bower_components
+node_modules
+Flickr.sublime-project
+Flickr.sublime-workspace
+npm-debug.log
+.DS_Store
+

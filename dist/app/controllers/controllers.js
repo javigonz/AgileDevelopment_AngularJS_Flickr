@@ -1,0 +1,1 @@
+!function(){"use strict";function PhotosController($scope,Flickr){Flickr.getPublicFeed().then(function(data){$scope.photos=data.data.items})}angular.module("flickrApp.controllers",["flickrApp.provider"]).controller("PhotosController",PhotosController)}();
