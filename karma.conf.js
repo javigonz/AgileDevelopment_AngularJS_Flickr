@@ -16,16 +16,16 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'bower_components/angular/angular.js',
-      'bower_components/angular-route/angular-route.js',
       'node_modules/angular-mocks/angular-mocks.js',
-      'app/controllers/controllers.js',
-      'app/app.js',
-      'test/unit/testControllers.spec.js'
+      'app/services/*.js',
+      'test/*.spec.js'
     ],
 
 
     // list of files to exclude
     exclude: [
+
+
     ],
 
 
@@ -33,6 +33,8 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
     },
+
+
 
 
     // test results reporter to use

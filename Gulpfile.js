@@ -94,8 +94,7 @@ gulp.task('uncss', function() {
 //Unit Test with Karma
 gulp.task('test', function (done) {
   karma.start({
-    configFile: __dirname + '/karma.conf.js',
-    singleRun: true
+    configFile: __dirname + '/karma.conf.js'
   }, done);
 });
 
