@@ -1,6 +1,8 @@
 # AngularJS + Flickr
 
-A simple application in AngularJS to fletch images from Flickr
+A simple application in AngularJS to fletch images from Flickr.
+
+Click <a href="http://www.malagaenblancoynegro.com/AgileDevelopment_flickr/index.html">here</a> to view online
 
 ##The folder structure
 ```
